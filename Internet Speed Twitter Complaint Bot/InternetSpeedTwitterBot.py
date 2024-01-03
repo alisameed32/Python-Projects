@@ -45,7 +45,7 @@ class InternetSpeedTwitterBot:
         self.driver.find_element(By.XPATH, '/html/body/div/div/div/div[1]/div[2]/div/div/div/div/div/div[2]'
                                            '/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]').click()
 
-        input("Captacha done? ")
+        #input("Captacha done? ") #//Only need for captcha or security check
         self.password = self.driver.find_element(By.XPATH, '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]'
                                                            '/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]'
                                                            '/div/label/div/div[2]/div[1]/input')
