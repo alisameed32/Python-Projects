@@ -1,0 +1,5 @@
+Objectives:
+
+1. Create a Flask server to render html and css static files. For that I use the html and css code from this github respository:
+
+https://github.com/html5up/identity
